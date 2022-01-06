@@ -1,0 +1,24 @@
+package selfProgramming;
+
+public class MethodAverage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner input = new Scanner(System.in);
+	        System.out.print("Input the first number: ");
+	        double x = input.nextDouble();
+	        System.out.print("Input the second number: ");
+	        double y = input.nextDouble();
+	        System.out.print("Input the third number: ");
+	        double z = input.nextDouble();
+	        System.out.print("The average value is " + average(x, y, z)+"\n" );
+	    }
+
+	  public static double average(double x, double y, double z)
+	    {
+	        return (x + y + z) / 3;
+	        
+
+	}
+
+}
